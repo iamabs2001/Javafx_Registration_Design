@@ -1,0 +1,54 @@
+.pane{
+	-fx-background-color: #6200EA;
+}
+
+.card{
+	-fx-background-color: white;
+	-fx-background-radius: 5;
+}
+
+.input{
+    -fx-background-color: white;
+    -fx-border-color : #D7D6DC;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+}
+
+.input:focused {
+    -fx-border-color : #6200EA;
+    -fx-background-radius: 10;
+} 
+
+.btn-round-register{
+	-fx-background-color: #6200EA;
+	-fx-text-fill: white;
+	-fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+.btn-round-google{
+	-fx-background-color:  #FF3D00;
+	-fx-text-fill: white;
+	-fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+.btn-round-twitter{
+	-fx-background-color: #2196F3;
+	-fx-text-fill: white;
+	-fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+.btn-round-register:hover {
+	-fx-border-radius: 0;
+	-fx-background-radius: 0;
+}
+
+.btn-round-google:hover {
+	-fx-border-radius: 0;
+	-fx-background-radius: 0;
+}
+
+.btn-round-twitter:hover {
+	-fx-border-radius: 0;
+	-fx-background-radius: 0;
+}
