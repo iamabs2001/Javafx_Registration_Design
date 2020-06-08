@@ -1,4 +1,7 @@
+![](screenshot.png)
+
 # Registration Form
+
 A Registration Form in Javafx with custom styling.
 
 #Run
@@ -7,5 +10,3 @@ A Registration Form in Javafx with custom styling.
  
 #MainFile
 Register.fxml
- 
-
